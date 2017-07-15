@@ -1,2 +1,9 @@
-<h1>{{title}}</h1>
-<p>Welcome to {{title}}</p>
+<div class="container">
+	<div class="row">
+	{{#each pic}}
+		<div class="col-sm-3 padMe">
+			<img class="img-fluid" src="images/{{this}}.jpg" alt="jakey images">
+		</div>
+	{{/each}}
+	</div>
+</div>
